@@ -1,5 +1,11 @@
 # Black Friday Sales Prediction
 
+## Description
+
+This project aims to predict sales during Black Friday, a crucial period for retailers, by leveraging historical transaction data.  Accurate sales forecasting during this high-volume period is essential for optimizing inventory management, staffing, and marketing campaigns.  The model will analyze various factors, potentially including past sales figures, product categories, pricing strategies, promotional activities, and external factors like economic indicators or online search trends.  The goal is to develop a robust predictive model that can provide retailers with valuable insights into anticipated sales volumes, enabling them to make data-driven decisions and maximize profitability during Black Friday.  This project will explore different machine learning algorithms and feature engineering techniques to achieve the highest possible prediction accuracy.
+
+---
+
 ## Table of Contents
 - [Project Introduction](#project-introduction)
 - [Dataset Description](#dataset-description)
