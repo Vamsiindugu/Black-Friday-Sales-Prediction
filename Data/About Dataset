@@ -1,0 +1,29 @@
+Dataset Context: Black Friday Sales Prediction
+Context:
+A retail company, "ABC Private Limited," aims to understand and predict customer purchase behavior, specifically the purchase amount, during the annual Black Friday sales event. Black Friday is a significant shopping day known for widespread discounts and promotions across various retail sectors. By leveraging data science and machine learning, the company seeks to gain insights into customer preferences and behaviors to create a predictive model for forecasting sales. This model will assist in inventory management, financial planning, advertising, and marketing strategies, allowing for personalized offers to customers.
+
+Content:
+The dataset contains a comprehensive summary of purchase transactions made by various customers for selected high-volume products during Black Friday sales. It includes both customer demographics and product details.
+
+Key features in the dataset include:
+
+User_ID: A unique identifier for each customer.
+Product_ID: A unique identifier for each product.
+Gender: The gender of the user (e.g., 'M' for Male, 'F' for Female).
+Age: The age group of the user (e.g., '0-17', '18-25', '26-35', etc.).
+Occupation: An anonymized or masked numerical representation of the user's occupation.
+City_Category: The category of the city where the user resides (e.g., 'A', 'B', 'C').
+Stay_In_Current_City_Years: The number of years the user has lived in their current city.
+Marital_Status: The marital status of the user (e.g., 0 for unmarried, 1 for married).
+Product_Category_1: The primary category of the product (masked/anonymized).
+Product_Category_2: An additional category the product may belong to (masked/anonymized, often contains missing values).
+Product_Category_3: Another additional category the product may belong to (masked/anonymized, often contains missing values).
+Purchase: The purchase amount, which is the target variable for prediction.
+Dataset Characteristics:
+
+The dataset is a classical dataset for exploring and expanding feature engineering skills and understanding real-world shopping experiences.
+It is typically used for a regression problem, with 'Purchase' as the target variable.
+The dataset might contain missing values, particularly in Product_Category_2 and Product_Category_3, and may require preprocessing steps like imputation or removal of these columns depending on the analysis.
+Categorical features will need to be encoded into numerical representations for machine learning models.
+Objective:
+The primary objective is to build a machine learning model to predict the Purchase amount for customers, enabling the retail company to forecast sales and make data-driven decisions. Evaluation metrics like RMSE (Root Mean Squared Error) or MAE (Mean Absolute Error) are commonly used for this regression task.
