@@ -24,7 +24,6 @@ An elite implementation of a **gradient boosting pipeline** to predict customer 
   - [📓 Running the Notebook](#-running-the-notebook)
 - [🛠️ Usage](#️-usage)
 - [🤝 Contributing](#-contributing)
-- [📝 License](#-license)
 
 ---
 
